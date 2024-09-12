@@ -104,8 +104,13 @@ nav ul a {
 .about div {
   width: 50%;
 }
-
-.about h1 span {
+h1 span {
   color: #01eeff;
   white-space: nowrap;
+}
+.skills {
+  background-color: black;
+}
+.project {
+  background-color: #323846;
 }
