@@ -28,12 +28,6 @@ nav ul a {
   font-weight: bold;
   color: white;
 }
-ortfolio-icon:hover {
-  color: antiquewhite;
-}
-.nav-item {
-  color: white;
-}
 
 .hero-section {
   background-color: black;
@@ -99,4 +93,19 @@ ortfolio-icon:hover {
   width: 225px;
   height: 52px;
   margin: 2em;
+}
+.about {
+  background-color: #323846;
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+  color: white;
+}
+.about div {
+  width: 50%;
+}
+
+.about h1 span {
+  color: #01eeff;
+  white-space: nowrap;
 }
