@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+nav ul {
+  display: inline-flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0 30px;
+}
+nav ul a {
+  color: white;
+  text-decoration: none;
+  font: 1em intern;
+  font-weight: bold;
+  padding: 0 15px;
+  align-content: center;
+}
+.logo {
+  font: 2em sen;
+  font-weight: bold;
+  color: white;
+}
+ortfolio-icon:hover {
+  color: antiquewhite;
+}
+.nav-item {
+  color: white;
+}
+
+.hero-section {
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding: 3em;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.hero-section .hello {
+  font: 32px inter;
+  font-weight: bold;
+}
+.hero-section h1 {
+  font: 72 sen;
+  font-weight: bolder;
+}
+.hero-section .photo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: auto;
+}
+
+.hero-section p span {
+  color: #01eeff;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #01eeff; /* Simulate cursor */
+  display: inline-block;
+  vertical-align: bottom; /* Align with other text */
+  animation: typing 4s steps(30, end) infinite,
+    blink-caret 0.4s step-end infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50%,
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #01eeff;
+  }
+}
+.btn {
+  display: block;
+  background-color: #01eeff;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  border-radius: 16;
+  width: 225px;
+  height: 52px;
+  margin: 2em;
+}
