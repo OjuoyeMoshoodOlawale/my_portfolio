@@ -333,6 +333,7 @@ label {
   }
   .card-container {
     flex-direction: column;
+    justify-content: space-around;
   }
   .card {
     width: 90%;
