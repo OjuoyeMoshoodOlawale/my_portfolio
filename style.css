@@ -271,6 +271,7 @@ textarea {
   border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 16px;
+  color: black;
 }
 label {
   display: block;
@@ -349,6 +350,7 @@ label {
   }
   .card {
     width: 100%;
+    padding: 0;
   }
   .contact-info {
     flex-direction: column;
