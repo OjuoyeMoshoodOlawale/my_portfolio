@@ -62,9 +62,9 @@ nav ul a {
   height: auto;
 }
 
-.hero-section p span {
+.hello span {
   color: #01eeff;
-  white-space: nowrap;
+  white-space: nowrap; /* Prevents the text from wrapping */
   overflow: hidden;
   border-right: 2px solid #01eeff; /* Simulate cursor */
   display: inline-block;
@@ -77,15 +77,14 @@ nav ul a {
   0% {
     width: 0;
   }
-  50%,
   100% {
-    width: 74%;
+    width: 70%; /* Ensure the text fully types out */
   }
 }
 
 @keyframes blink-caret {
   0%,
-  100% {
+  70% {
     border-color: transparent;
   }
   50% {
@@ -369,4 +368,8 @@ label {
   .menu-btn {
     display: block;
   }
+}
+.hello {
+  font-size: 14px; /* You can adjust this */
+  color: white; /* Your desired color */
 }
