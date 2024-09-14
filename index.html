@@ -23,12 +23,18 @@
     <!--nav start-->
     <nav>
       <div class="logo">Porfolio</div>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Project</a></li>
-        <li><a href="#">Experience</a></li>
+      <button class="menu-btn">
+        <img src="images/hamburger_icon.svg" alt="" srcset="" />
+      </button>
+      <br />
+      <ul id="menu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">My Skills</a></li>
+        <li><a href="#experence">My Experience</a></li>
+        <li><a href="#interest">My Interest</a></li>
+        <li><a href="#project">My Project</a></li>
+        <li><a href="#">My Contact</a></li>
       </ul>
     </nav>
     <!--nav end-->
@@ -36,8 +42,8 @@
       <!-- hero section -->
       <section class="hero-section">
         <div>
-          <p class="hello">Hello, i'm</p>
-          <h1>Ojuoye MOshood Olawale</h1>
+          <p class="hello">Hello, I'm</p>
+          <h1>Ojuoye Moshood Olawale</h1>
           <p class="hello">I'm a <span> backend Developer</span></p>
           <p class="timeline">
             A Backend Developer Crafting Reliable and Scalable Solutions
@@ -58,9 +64,9 @@
       <!--about section-->
       <section class="about">
         <div>
-          <img src="images/photo2.png" alt="" srcset="" />
+          <img src="images/photo2.png" id="image_about" alt="" srcset="" />
         </div>
-        <div>
+        <div id="about_aticle">
           <h1>About <span> Me</span></h1>
           <p>Backend Developer</p>
           <p>
@@ -68,22 +74,266 @@
             performance., My journey began with a degree in mathematics from
             Ahmadu Bello University, Zaria. I have hands-on experience with
             JavaScript, Python, PHP, and HTML, along with frameworks like
-            Express, Django, and tools like GIt and MySQL. During My Career, I
-            have contributed to several projects, including developing a School
-            Management ERP and an Examination Proctoring System. These
-            Experiences Have Honored my skills in backend development, database
-            optimization, and collaborative problem-solving. Let’s Connect and
-            discuss your next project.
+            Express, Django, and tools like GIt and MySQL. <br />
+            <br />
+            During My Career, I have contributed to several projects, including
+            developing a School Management ERP and an Examination Proctoring
+            System. These Experiences Have Honored my skills in backend
+            development, database optimization, and collaborative
+            problem-solving.<br /><br />
+            Let’s Connect and discuss your next project.
           </p>
         </div>
       </section>
       <!--skkills -->
       <section class="skills">
-        <h1>Skills</h1>
+        <h1>My <span>Skills</span></h1>
+
+        <div class="skills-container">
+          <div class="skills-item">
+            <h2>Language <img src="images/language.svg" alt="" srcset="" /></h2>
+            <div class="skills-item-list">
+              <h3>JavaScript</h3>
+              <h3>Python</h3>
+              <h3>PHP</h3>
+            </div>
+          </div>
+          <div class="skills-item">
+            <h2>
+              Framework <img src="images/Framework.svg" alt="" srcset="" />
+              <div class="skills-item-list">
+                <h3>Express</h3>
+                <h3>Django</h3>
+                <h3>Laravel</h3>
+              </div>
+            </h2>
+          </div>
+          <div class="skills-item">
+            <h2>Databases <img src="images/databases.svg" alt="" /></h2>
+            <div class="skills-item-list">
+              <h3>My SQL</h3>
+              <h3>PostgreSQL</h3>
+              <h3>MOngoDB</h3>
+            </div>
+          </div>
+          <div class="skills-item">
+            <h2>Tools <img src="images/tools.svg" alt="" srcset="" /></h2>
+            <div class="skills-item-list">
+              <h3>Git/Github</h3>
+              <h3>Linux</h3>
+              <h3>C-panel</h3>
+            </div>
+          </div>
+          <div class="skills-item">
+            <h2>Other skills</h2>
+            <div class="skills-item-list">
+              <h3>API Development</h3>
+              <h3>System Design</h3>
+              <h3>Cloud Computing</h3>
+              <h3>Data Structure & Algorithms</h3>
+            </div>
+          </div>
+        </div>
       </section>
+      <!--end skills-->
+      <!--start interest-->
+      <section class="interest">
+        <h1>My <span>Interest </span></h1>
+        <p>
+          <b>Emerging Technologies:</b> I’m passionate about exploring new
+          advancements in backend technologies, such as serverless architecture
+          and microservices. I enjoy staying updated on the latest trends and
+          tools to enhance my development skills.<br />
+          <b>Open Source Contributions:</b> I actively contribute to open source
+          projects, focusing on backend systems and APIs. This involvement helps
+          me collaborate with other developers and improve my coding
+          practices.<br />
+          <b>Problem Solving and Algorithms:</b> I have a strong interest in
+          algorithms and data structures. I regularly participate in coding
+          challenges and competitions to sharpen my problem-solving skills and
+          learn new techniques.<br />
+          <b>Tech Community Engagement:</b> I enjoy attending tech meetups and
+          conferences to network with industry professionals and gain insights
+          into best practices and emerging trends.<br />
+          Education and Teaching: I’m dedicated to using my skills to help
+          others learn. I occasionally tutor fellow students and contribute to
+          educational resources related to backend development.
+        </p>
+      </section>
+      <!--experience-->
+      <section class="experience">
+        <h1>My <span>Experience</span></h1>
+        <!--exp 1-->
+        <div class="experience-item">
+          <div class="experience-item-head">
+            <h3>PHP Intsructor - <span> Olas Synergy Solution</span></h3>
+            <span>August 2020 - Till Date</span>
+          </div>
+
+          <p>
+            I am responsible for teaching PHP technology to students and guiding
+            them through real-world projects. Working in a collaborative team
+            with other tutors, I explain fundamental programming concepts,
+            ensure students grasp both theoretical and practical aspects of PHP,
+            and support them in developing their own projects, helping them grow
+            in backend development.
+          </p>
+        </div>
+        <!--end  exp1-->
+
+        <!--exp 1-->
+        <div class="experience-item">
+          <div class="experience-item-head">
+            <h3>
+              Backend Development Intern - <span> Mcbaysel Global System </span>
+            </h3>
+            <span>February 2020 - December 202</span>
+          </div>
+
+          <p>
+            Key contributor to School Management ERP using Express, EJS, and
+            SQL. Optimized database, troubleshooted issues, and adhered to
+            coding best practices. Developed strong problem-solving skills in a
+            collaborative team environment, deepening technical expertise in
+            backend development.
+          </p>
+        </div>
+        <!--end  exp1-->
+      </section>
+      <!--Start project-->
       <section class="project">
-        <h1>projects</h1>
+        <h1>My <span>projects</span></h1>
+        <div class="card-container">
+          <div class="card">
+            <img src="images/cbt.jpg" class="card-img" alt="Card Image 1" />
+            <div class="card-body">
+              <h5 class="card-title">AI Examination Proctoring System</h5>
+              <p class="card-text">
+                Led the development of an Exam Proctoring System utilizing React
+                and Express API. Integrated Image Recognition API to uphold
+                examination integrity. Successfully managed the project,
+                demonstrating proficiency in front-end and back-end technologies
+                while ensuring a secure and reliable system.
+              </p>
+              <a
+                href="https://github.com/OjuoyeMoshoodOlawale/proctoring-api"
+                class="card-btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/sms.jpg" class="card-img" alt="Card Image 2" />
+            <div class="card-body">
+              <h5 class="card-title">School Report Card Management System</h5>
+              <p class="card-text">
+                Built a system using PHP, SQL, and Express.js to streamline
+                report card generation. It reduces errors, automates data entry,
+                and provides real-time access to student performance for
+                teachers, administrators, and parents.
+              </p>
+              <a href="#" class="card-btn">View Project</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="images/download.jpg"
+              class="card-img"
+              alt="Card Image 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">CRUD Application</h5>
+              <p class="card-text">
+                Executed a comprehensive CRUD (Create, Read, Update, Delete)
+                operation project using PHP, Bootstrap and PHPMyAdmin Database.
+                Demonstrated adeptness in backend development and proficiently
+                managed database operations. Created a seamless system for
+                efficient data manipulation and delivery.
+              </p>
+              <a href="https://portal.islamicity.com.ng/" class="card-btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <h1>My <span>Contact</span></h1>
+        <div class="contact-info">
+          <p><span>Phone:</span> +234 703 123 4567</p>
+          <p>
+            <span>Email:</span>
+            <a href="mailto:moshoodojuoye@gmail.com">ojuoye1999@gmail.com</a>
+          </p>
+          <p>
+            <span>Address:</span>
+            <a href="mailto:moshoodojuoye@gmail.com"
+              >64, Idiroko road, Owode Yewa, Ogun, Nigeria</a
+            >
+          </p>
+        </div>
+        <div>
+          <div class="form-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63400.62306244901!2d2.9367967033197844!3d6.703877479760767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b73a7f26e2a05%3A0x9b460a6a3e49a18f!2sOwode%20112106%2C%20Ogun%20State!5e0!3m2!1sen!2sng!4v1726271669382!5m2!1sen!2sng"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <form action="#" method="POST">
+              <label for="name">Name:</label> <br />
+              <input type="text" id="name" name="name" required /><br />
+
+              <label for="email">Email:</label> <br />
+              <input type="email" id="email" name="email" required /> <br />
+
+              <label for="message">Message:</label> <br />
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+              <br />
+
+              <button class="btn" style="margin: 0" type="submit">
+                Send Message
+              </button>
+              <br />
+            </form>
+          </div>
+        </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <p>
+          <center>
+            &copy; 2024 Ojuoye Moshood Olawale. All rights reserved.
+          </center>
+        </p>
+        <ul class="footer-links">
+          <li><a href="mailto:ojuoye1999@gmail.com">Email</a></li>
+          <li>
+            <a href="https://github.com/yourgithubprofile" target="_blank"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/yourlinkedinprofile"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
