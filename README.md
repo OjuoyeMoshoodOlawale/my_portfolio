@@ -21,7 +21,6 @@ This portfolio website is designed to present my professional work, including:
 - **HTML**: For structuring the content of the website.
 - **CSS**: For styling and layout.
 - **JavaScript**: For interactive elements.
-- **Bootstrap**: For responsive design and components.
 
 ## Features
 
