@@ -317,11 +317,17 @@ label {
     padding: 10px;
     margin: 0;
   }
+  .skills-item {
+    width: 100%;
+  }
   experience-item-head {
     flex-direction: column;
   }
   #img2 {
     display: none;
+  }
+  #img1 {
+    width: 80%;
   }
   .about h1 {
     padding: 10px;
@@ -342,7 +348,7 @@ label {
     flex-direction: column;
   }
   .card {
-    width: 90%;
+    width: 100%;
   }
   .contact-info {
     flex-direction: column;
